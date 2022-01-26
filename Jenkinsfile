@@ -11,7 +11,7 @@ pipeline {
                 sh '''
                 go mod tidy
                 go build -o  main.go
-                sh ''' 
+                ''' 
             }
         }
     }
